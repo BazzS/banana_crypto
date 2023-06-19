@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banana Test</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'login' %}">Login</a> |
+        <a href="{% url 'register' %}">Register</a>
+    </nav>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
